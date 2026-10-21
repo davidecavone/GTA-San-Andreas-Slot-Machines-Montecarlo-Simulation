@@ -7,6 +7,9 @@ The very popular Grand Theft Auto San Andreas videogame has slot machines inside
 
 <img width="1280" height="1024" alt="immagine" src="https://github.com/user-attachments/assets/b2b58efe-3628-4266-8a52-a52c0777b5d9" />
 
+We are interested to see what is the expected value of the balance change, from a theorical and empirical point of view.
+But before that, let's dig into how do slot machines actually work.
+
 ## How do slot machines work
 
 Just like real life slot machines, you win if a sequence of three same symbols appears, and the prize is proportional to your bet.
@@ -19,6 +22,18 @@ Each of these symbol has its own multiplier:
 - bells: x500
 - 1 gold bar: x1000
 - 2 gold bar: x5000
+
+## Mathematical approach
+
+$$
+\mathbb{E}[X] = \left( \sum_{i=1}^{6} b \cdot m_i \cdot p_i \right) - (b \cdot l)
+$$
+
+Where:
+* $b$: bet amount
+* $m_i$: multiplier for the $i$-th symbol, where $i \in \{1, \dots, 6\}$
+* $p_i$: probability of the $i$-th symbol, where $i \in \{1, \dots, 6\}$
+* $l$: loss probability
 
 # Probability
 We can assume that each symbol has the same probability of appearance. This means that every symbol has the same probability of appearance, or $\frac{1}{6}$.
