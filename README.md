@@ -26,10 +26,11 @@ Each of these symbol has its own multiplier:
 ## Mathematical approach
 
 $$
-\mathbb{E}[X] = \left( \sum_{i=1}^{6} b \cdot m_i \cdot p_i \right) - (b \cdot l)
+\mathbb{E}[\Delta C] = \left( \sum_{i=1}^{6} b \cdot m_i \cdot p_i \right) - (b \cdot l)
 $$
 
 Where:
+* $C$: current balance
 * $b$: bet amount
 * $m_i$: multiplier for the $i$-th symbol, where $i \in \{1, \dots, 6\}$
 * $p_i$: probability of the $i$-th symbol, where $i \in \{1, \dots, 6\}$
