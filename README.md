@@ -47,7 +47,7 @@ $$E[\Delta C] = \frac{25 + 100 + 250 + 500 + 1000 + 5000}{216} - \frac{210}{216}
 
 $$E[\Delta C] = \frac{6875}{216} - \frac{210}{216} = \frac{6665}{216} \approx +30.86$$
 
-Therefore, the expected capital after $n$ spins will be $C_{in} + E[\Delta C] \cdot n$. In our case, since $C_{in} = $1000 and the number of observed spins is 100, the expected capital will be $1000 + 30.86 \cdot 100 = $4086.
+Therefore, the expected capital after $n$ spins will be $C_{in} + E[\Delta C] \cdot n$. In our case, since $C_{in} = $1000$ and the number of observed spins is 100, the expected capital will be $1000 + 30.86 \cdot 100 = $4086$.
 
 ## Result
 
