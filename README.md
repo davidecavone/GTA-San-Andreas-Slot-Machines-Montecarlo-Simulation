@@ -39,4 +39,9 @@ Where:
 * $p_i$: probability of the $i$-th symbol, where $i \in \{1, \dots, 6\}$
 * $l$: loss probability
 
+## Result
+
+<img width="633" height="507" alt="immagine" src="https://github.com/user-attachments/assets/1731f584-6e0f-4159-80b6-2b176fb38b7a" />
+
+
 
