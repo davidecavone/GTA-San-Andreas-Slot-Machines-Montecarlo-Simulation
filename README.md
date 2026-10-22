@@ -10,18 +10,6 @@ The very popular Grand Theft Auto San Andreas videogame has slot machines inside
 We are interested to see what is the expected value of the balance change, from a theorical and empirical point of view.
 But before that, let's dig into how do slot machines actually work.
 
-## Slot machine symbols and their multipliers
-
-Just like real life slot machines, you win if a sequence of three same symbols appears, and the prize is proportional to your bet.
-The slot machine symbols are: cherries, grapes, 69, bells, 1 gold bar and 2 gold bar.
-Each of these symbol has its own multiplier:
-- Cherries: x25
-- Grape: x100
-- 69: x250
-- bells: x500
-- 1 gold bar: x1000
-- 2 gold bar: x5000
-
 ## Bets
 
 You can bet $1, $5, $10, $20, or $50. For simplicity, the value is fixed on $1.
@@ -40,12 +28,12 @@ Where:
 
 | Index ($i$) | Symbol | Multiplier ($m_i$) | Probability ($p_i$) |
 | :---: | :--- | :---: | :---: |
-| 1 | `ciliegie` | $25$ | $1/216$ |
-| 2 | `uva` | $100$ | $1/216$ |
+| 1 | `cherries` | $25$ | $1/216$ |
+| 2 | `grape` | $100$ | $1/216$ |
 | 3 | `69` | $250$ | $1/216$ |
-| 4 | `campane` | $500$ | $1/216$ |
-| 5 | `1oro` | $1000$ | $1/216$ |
-| 6 | `2oro` | $5000$ | $1/216$ |
+| 4 | `bells` | $500$ | $1/216$ |
+| 5 | `1gold` | $1000$ | $1/216$ |
+| 6 | `2gold` | $5000$ | $1/216$ |
 
 #### Calculation for $b = 1$
 
